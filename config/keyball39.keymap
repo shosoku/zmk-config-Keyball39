@@ -125,10 +125,10 @@
         snipe_layer {
             label = "SNIPE";
             bindings = <
-&trans  &trans  &trans  &trans  &bootloader                  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                       &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                       &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans       &trans  &trans  &trans                          &trans
+&trans  &trans  &kp K_PLAY_PAUSE  &trans  &kp K_MUTE                         &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans            &trans  &kp K_VOLUME_UP                    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans            &trans  &kp K_VOLUME_DOWN                  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans            &trans  &trans             &trans  &trans  &trans                          &trans
             >;
         };
     };
