@@ -13,7 +13,7 @@ layers:
   - {t: P, h: SYM}
   - E
   - I
-  - A
+  - {t: A, h: '$$mdi:apple-keyboard-option$$'}
   - O
   - {t: '-', s: _}
   - K
@@ -33,13 +33,13 @@ layers:
   - B
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:keyboard-tab$$', h: MOUSE}
   - {t: '$$mdi:keyboard-space$$', h: NUM}
   - {t: Alt+`, h: SCROLL, s: Alt+~}
   - {t: '$$mdi:backspace$$', h: FUN}
   - {t: '$$mdi:keyboard-return$$', h: SNIPE}
-  - LGUI
+  - $$mdi:keyboard-esc$$
   NUM:
   - {t: '[', s: '{'}
   - {t: '$$mdi:backspace$$', type: backspace}
