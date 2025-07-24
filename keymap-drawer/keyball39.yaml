@@ -39,7 +39,7 @@ layers:
   - {t: Alt+`, h: SCROLL, s: Alt+~}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', h: SYM}
-  - {t: '$$mdi:keyboard-tab$$', h: NUM}
+  - {t: ',', h: NUM, s: <}
   NUM:
   - '1'
   - '2'
