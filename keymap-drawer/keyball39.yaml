@@ -293,3 +293,7 @@ combos:
   k: {t: '$$mdi:backspace$$', type: backspace}
 - p: [12, 13]
   k: $$mdi:backspace-reverse-outline$$
+- p: [26, 27]
+  k: '&mkp MB3'
+- p: [27, 28]
+  k: '&mkp MB4'
