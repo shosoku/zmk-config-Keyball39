@@ -281,13 +281,13 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [15, 16]
+- p: [17, 16]
   k: '&mkp MB1'
-- p: [16, 17]
+- p: [17, 18]
   k: '&mkp MB2'
-- p: [15, 6]
+- p: [7, 16]
   k: '&msc MOVE_Y(10)'
-- p: [16, 25]
+- p: [17, 26]
   k: '&msc MOVE_Y(-10)'
 - p: [11, 12]
   k: {t: '$$mdi:backspace$$', type: backspace}
