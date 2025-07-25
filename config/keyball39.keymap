@@ -68,7 +68,7 @@
 &kp Q      &kp L       &kp U           &kp COMMA  &kp PERIOD                                  &kp F        &kp W  &kp R  &kp Y  &lt 2 P
 &kp E      &kp I       &mt LEFT_ALT A  &kp O      &kp MINUS                                   &kp K        &kp T  &kp N  &kp S  &kp H
 &kp Z      &kp X       &kp C           &kp V      &kp SEMICOLON                               &kp G        &kp D  &kp M  &kp J  &kp B
-&kp LCTRL  &kp LSHIFT  &kp LEFT_GUI    &lt 4 TAB  &lt 1 SPACE    &lt 5 LA(GRAVE)  &lt 3 BSPC  &lt 6 ENTER                       &kp ESCAPE
+&kp LCTRL  &kp LSHIFT  &kp LEFT_GUI    &lt 4 TAB  &lt 1 SPACE    &lt 5 LC(SPACE)  &lt 3 BSPC  &lt 6 ENTER                       &kp ESCAPE
             >;
         };
 
