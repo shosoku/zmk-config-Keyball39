@@ -20,7 +20,7 @@ layers:
   - T
   - N
   - S
-  - H
+  - {t: H, h: FUN}
   - Z
   - X
   - C
@@ -37,7 +37,7 @@ layers:
   - {t: '$$mdi:keyboard-tab$$', h: MOUSE}
   - {t: '$$mdi:keyboard-space$$', h: NUM}
   - {t: 'Ctl+$$mdi:keyboard-space$$', h: SCROLL}
-  - {t: '$$mdi:backspace$$', h: FUN}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', h: SNIPE}
   - $$mdi:keyboard-esc$$
   NUM:
@@ -140,7 +140,7 @@ layers:
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - {t: '''', s: '"'}
-  - '"'
+  - {t: '"', type: held}
   - F9
   - F10
   - F11
@@ -157,7 +157,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   MOUSE:
