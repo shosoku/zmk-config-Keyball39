@@ -20,7 +20,7 @@ layers:
   - T
   - N
   - S
-  - {t: H, h: FUN}
+  - H
   - Z
   - X
   - C
@@ -30,7 +30,7 @@ layers:
   - D
   - M
   - J
-  - B
+  - {t: B, h: FUN}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-command$$
@@ -140,7 +140,7 @@ layers:
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - {t: '''', s: '"'}
-  - {t: '"', type: held}
+  - '"'
   - F9
   - F10
   - F11
@@ -150,7 +150,7 @@ layers:
   - {t: ;, s: ':'}
   - ':'
   - {t: '=', s: +}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
