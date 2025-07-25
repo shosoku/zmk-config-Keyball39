@@ -221,7 +221,7 @@ layers:
   - Gui+$$mdi:arrow-down-bold$$
   - Gui+$$mdi:arrow-right-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Z, h: '$$mdi:apple-keyboard-command$$'}
+  - Ctl+Z
   - Ctl+X
   - Ctl+C
   - Ctl+V
@@ -297,3 +297,7 @@ combos:
   k: '&mkp MB4'
 - p: [27, 28]
   k: '&mkp MB5'
+- p: [15, 6]
+  k: PgUp
+- p: [16, 25]
+  k: PgDn
