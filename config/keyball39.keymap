@@ -73,12 +73,12 @@
         };
 
         vertical {
-            bindings = <&msc MOVE_Y(15)>;
+            bindings = <&msc MOVE_Y(20)>;
             key-positions = <7 16>;
         };
 
         vertical2 {
-            bindings = <&msc MOVE_Y(-15)>;
+            bindings = <&msc MOVE_Y(-20)>;
             key-positions = <17 26>;
         };
 
