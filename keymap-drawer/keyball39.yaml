@@ -289,3 +289,7 @@ combos:
   k: '&msc MOVE_Y(10)'
 - p: [16, 25]
   k: '&msc MOVE_Y(-10)'
+- p: [11, 12]
+  k: {t: '$$mdi:backspace$$', type: backspace}
+- p: [12, 13]
+  k: $$mdi:backspace-reverse-outline$$
