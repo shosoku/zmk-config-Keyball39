@@ -36,7 +36,7 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:keyboard-tab$$', h: MOUSE}
   - {t: '$$mdi:keyboard-space$$', h: NUM}
-  - {t: Alt+`, h: SCROLL, s: Alt+~}
+  - {t: 'Ctl+$$mdi:keyboard-space$$', h: SCROLL}
   - {t: '$$mdi:backspace$$', h: FUN}
   - {t: '$$mdi:keyboard-return$$', h: SNIPE}
   - $$mdi:keyboard-esc$$
