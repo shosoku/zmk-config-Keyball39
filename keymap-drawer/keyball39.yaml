@@ -25,7 +25,7 @@ layers:
   - X
   - C
   - V
-  - {t: '?', h: FUN}
+  - {t: /, h: FUN, s: '?'}
   - G
   - D
   - M
