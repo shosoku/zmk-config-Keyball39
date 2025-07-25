@@ -25,7 +25,7 @@ layers:
   - X
   - C
   - V
-  - {t: 'Sft+?', h: FUN}
+  - {t: '?', h: FUN}
   - G
   - D
   - M
