@@ -286,9 +286,9 @@ combos:
 - p: [17, 18]
   k: '&mkp MB2'
 - p: [7, 16]
-  k: '&msc MOVE_Y(10)'
+  k: '&msc MOVE_Y(15)'
 - p: [17, 26]
-  k: '&msc MOVE_Y(-10)'
+  k: '&msc MOVE_Y(-15)'
 - p: [11, 12]
   k: {t: '$$mdi:backspace$$', type: backspace}
 - p: [12, 13]
