@@ -25,12 +25,12 @@ layers:
   - X
   - C
   - V
-  - {t: ;, s: ':'}
+  - {t: 'Sft+?', h: FUN}
   - G
   - D
   - M
   - J
-  - {t: B, h: FUN}
+  - B
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-command$$
@@ -145,12 +145,12 @@ layers:
   - F10
   - F11
   - F12
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: \, s: '|'}
   - {t: ;, s: ':'}
   - ':'
   - {t: '=', s: +}
-  - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
