@@ -294,6 +294,6 @@ combos:
 - p: [12, 13]
   k: $$mdi:backspace-reverse-outline$$
 - p: [26, 27]
-  k: '&mkp MB3'
-- p: [27, 28]
   k: '&mkp MB4'
+- p: [27, 28]
+  k: '&mkp MB5'
