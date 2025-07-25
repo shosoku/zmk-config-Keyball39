@@ -101,6 +101,16 @@
             bindings = <&mkp MB5>;
             key-positions = <27 28>;
         };
+
+        pu {
+            bindings = <&kp PAGE_UP>;
+            key-positions = <15 6>;
+        };
+
+        pd {
+            bindings = <&kp PAGE_DOWN>;
+            key-positions = <16 25>;
+        };
     };
 
     keymap {
@@ -161,7 +171,7 @@
             bindings = <
 &trans     &trans     &trans     &trans     &trans                  &trans  &trans              &kp LG(UP_ARROW)    &trans               &trans
 &kp LC(A)  &kp LC(S)  &trans     &trans     &trans                  &trans  &kp LG(LEFT_ARROW)  &kp LG(DOWN_ARROW)  &kp LG(RIGHT_ARROW)  &trans
-&kp LG(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &trans                  &none   &kp LEFT_ALT        &kp TAB             &kp LEFT_GUI         &kp ESCAPE
+&kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &trans                  &none   &kp LEFT_ALT        &kp TAB             &kp LEFT_GUI         &kp ESCAPE
 &trans     &trans     &trans     &trans     &trans  &trans  &trans  &trans                                                               &trans
             >;
         };
