@@ -59,6 +59,30 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        m1 {
+            bindings = <&mkp MB1>;
+            key-positions = <15 16>;
+        };
+
+        mb2 {
+            bindings = <&mkp MB2>;
+            key-positions = <16 17>;
+        };
+
+        vertical {
+            bindings = <&msc MOVE_Y(10)>;
+            key-positions = <15 6>;
+        };
+
+        vertical2 {
+            bindings = <&msc MOVE_Y(-10)>;
+            key-positions = <16 25>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
