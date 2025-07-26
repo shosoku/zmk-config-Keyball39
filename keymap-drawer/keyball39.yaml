@@ -283,21 +283,30 @@ layers:
 combos:
 - p: [17, 16]
   k: '&mkp MB1'
+  l: [QWRT]
 - p: [17, 18]
   k: '&mkp MB2'
+  l: [QWRT]
 - p: [7, 16]
   k: '&msc MOVE_Y(20)'
+  l: [QWRT]
 - p: [17, 26]
   k: '&msc MOVE_Y(-20)'
+  l: [QWRT]
 - p: [11, 12]
   k: {t: '$$mdi:backspace$$', type: backspace}
+  l: [QWRT]
 - p: [12, 13]
   k: $$mdi:backspace-reverse-outline$$
+  l: [QWRT]
 - p: [26, 27]
   k: '&mkp MB4'
 - p: [27, 28]
   k: '&mkp MB5'
+  l: [QWRT]
 - p: [15, 6]
   k: PgUp
+  l: [QWRT]
 - p: [16, 25]
   k: PgDn
+  l: [QWRT]
