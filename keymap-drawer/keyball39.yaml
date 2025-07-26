@@ -283,16 +283,16 @@ layers:
 combos:
 - p: [17, 16]
   k: '&mkp MB1'
-  l: [QWRT]
+  l: [MOUSE, QWRT]
 - p: [17, 18]
   k: '&mkp MB2'
-  l: [QWRT]
+  l: [QWRT, MOUSE]
 - p: [7, 16]
   k: '&msc MOVE_Y(20)'
-  l: [QWRT]
+  l: [QWRT, MOUSE]
 - p: [17, 26]
   k: '&msc MOVE_Y(-20)'
-  l: [QWRT]
+  l: [QWRT, MOUSE]
 - p: [11, 12]
   k: {t: '$$mdi:backspace$$', type: backspace}
   l: [QWRT]
@@ -301,12 +301,13 @@ combos:
   l: [QWRT]
 - p: [26, 27]
   k: '&mkp MB4'
+  l: [QWRT, MOUSE]
 - p: [27, 28]
   k: '&mkp MB5'
-  l: [QWRT]
+  l: [QWRT, MOUSE]
 - p: [15, 6]
   k: PgUp
-  l: [QWRT]
+  l: [QWRT, MOUSE]
 - p: [16, 25]
   k: PgDn
-  l: [QWRT]
+  l: [QWRT, MOUSE]
