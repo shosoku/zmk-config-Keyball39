@@ -172,9 +172,9 @@ layers:
   - $$mdi:pan-right$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '#'
+  - '@'
+  - _
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - PgUp
   - $$mdi:mouse-left-click-outline$$
