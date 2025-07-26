@@ -65,25 +65,25 @@
         m1 {
             bindings = <&mkp MB1>;
             key-positions = <17 16>;
-            layers = <0>;
+            layers = <4 0>;
         };
 
         mb2 {
             bindings = <&mkp MB2>;
             key-positions = <17 18>;
-            layers = <0>;
+            layers = <0 4>;
         };
 
         vertical {
             bindings = <&msc MOVE_Y(20)>;
             key-positions = <7 16>;
-            layers = <0>;
+            layers = <0 4>;
         };
 
         vertical2 {
             bindings = <&msc MOVE_Y(-20)>;
             key-positions = <17 26>;
-            layers = <0>;
+            layers = <0 4>;
         };
 
         bs {
@@ -101,24 +101,25 @@
         m3 {
             bindings = <&mkp MB4>;
             key-positions = <26 27>;
+            layers = <0 4>;
         };
 
         m4 {
             bindings = <&mkp MB5>;
             key-positions = <27 28>;
-            layers = <0>;
+            layers = <0 4>;
         };
 
         pu {
             bindings = <&kp PAGE_UP>;
             key-positions = <15 6>;
-            layers = <0>;
+            layers = <0 4>;
         };
 
         pd {
             bindings = <&kp PAGE_DOWN>;
             key-positions = <16 25>;
-            layers = <0>;
+            layers = <0 4>;
         };
     };
 
