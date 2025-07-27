@@ -15,7 +15,7 @@ layers:
   - I
   - {t: A, h: '$$mdi:apple-keyboard-option$$'}
   - O
-  - {t: '-', s: _}
+  - {t: '-', h: '$$mdi:apple-keyboard-control$$', s: _}
   - K
   - T
   - N
@@ -36,7 +36,7 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:keyboard-tab$$', h: SCROLL}
   - {t: '$$mdi:keyboard-space$$', h: NUM}
-  - {t: '$$mdi:apple-keyboard-control$$', h: MOUSE}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: MOUSE}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', h: SNIPE}
   - $$mdi:keyboard-esc$$
@@ -62,7 +62,7 @@ layers:
   - '6'
   - {t: '-', s: _}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '#'
   - '@'
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
