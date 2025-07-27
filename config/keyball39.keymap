@@ -129,10 +129,10 @@
         default_layer {
             label = "QWRT";
             bindings = <
-&kp Q          &kp L       &kp U           &kp COMMA  &kp PERIOD                                      &kp F        &kp W  &kp R  &kp Y  &lt 2 P
-&kp E          &kp I       &mt LEFT_ALT A  &kp O      &kp MINUS                                       &kp K        &kp T  &kp N  &kp S  &kp H
-&kp Z          &kp X       &kp C           &kp V      &lt 3 SLASH                                     &kp G        &kp D  &kp M  &kp J  &kp B
-&kp LC(SPACE)  &kp LSHIFT  &kp LEFT_GUI    &lt 5 TAB  &lt 1 SPACE  &lt 4 LEFT_CONTROL  &kp BACKSPACE  &lt 6 ENTER                       &kp ESCAPE
+&kp Q          &kp L       &kp U           &kp COMMA  &kp PERIOD                                           &kp F        &kp W  &kp R  &kp Y  &lt 2 P
+&kp E          &kp I       &mt LEFT_ALT A  &kp O      &mt LEFT_CONTROL MINUS                               &kp K        &kp T  &kp N  &kp S  &kp H
+&kp Z          &kp X       &kp C           &kp V      &lt 3 SLASH                                          &kp G        &kp D  &kp M  &kp J  &kp B
+&kp LC(SPACE)  &kp LSHIFT  &kp LEFT_GUI    &lt 5 TAB  &lt 1 SPACE             &lt 4 DELETE  &kp BACKSPACE  &lt 6 ENTER                       &kp ESCAPE
             >;
         };
 
@@ -141,7 +141,7 @@
             bindings = <
 &none     &kp LEFT_BRACKET  &kp UP_ARROW    &kp RIGHT_BRACKET  &none                           &kp COMMA     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS
 &kp HOME  &kp LEFT_ARROW    &kp DOWN_ARROW  &kp RIGHT          &kp END                         &kp DOT       &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS
-&none     &none             &kp AT_SIGN     &kp LEFT_SHIFT     &none                           &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL
+&none     &kp HASH          &kp AT_SIGN     &kp LEFT_SHIFT     &none                           &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL
 &trans    &trans            &trans          &trans             &trans   &trans  &kp BACKSPACE  &kp RETURN                                              &trans
             >;
         };
