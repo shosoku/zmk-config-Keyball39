@@ -86,7 +86,7 @@ layers:
   - '#'
   - $
   - '%'
-  - ^
+  - {t: '$$mdi:backup-restore$$', type: bootloader}
   - '&'
   - '*'
   - (
