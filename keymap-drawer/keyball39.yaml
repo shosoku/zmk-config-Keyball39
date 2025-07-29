@@ -32,8 +32,8 @@ layers:
   - {t: J, h: '$$mdi:apple-keyboard-control$$'}
   - B
   - Ctl+$$mdi:keyboard-space$$
-  - $$mdi:apple-keyboard-shift$$
-  - {t: '$$mdi:apple-keyboard-command$$', h: FUN}
+  - $$mdi:apple-keyboard-command$$
+  - {t: '@', h: FUN}
   - {t: '$$mdi:keyboard-tab$$', h: SCROLL}
   - {t: '$$mdi:keyboard-space$$', h: NUM}
   - {t: '$$mdi:backspace-reverse-outline$$', h: MOUSE}
