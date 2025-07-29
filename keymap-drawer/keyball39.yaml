@@ -12,24 +12,24 @@ layers:
   - Y
   - {t: P, h: SYM}
   - E
-  - {t: I, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: A, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: O, h: '$$mdi:apple-keyboard-option$$'}
+  - I
+  - A
+  - O
   - {t: '-', s: _}
   - K
-  - {t: T, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: N, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: S, h: '$$mdi:apple-keyboard-control$$'}
+  - T
+  - N
+  - S
   - H
   - Z
-  - X
-  - C
-  - V
+  - {t: X, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: C, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: V, h: '$$mdi:apple-keyboard-option$$'}
   - {t: /, h: FUN, s: '?'}
   - G
-  - D
-  - M
-  - J
+  - {t: D, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: M, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: J, h: '$$mdi:apple-keyboard-control$$'}
   - B
   - Ctl+$$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-shift$$
