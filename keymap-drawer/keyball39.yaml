@@ -10,7 +10,7 @@ layers:
   - W
   - R
   - Y
-  - {t: P, h: SYM}
+  - P
   - E
   - I
   - A
@@ -39,7 +39,7 @@ layers:
   - {t: '$$mdi:apple-keyboard-control$$', h: MOUSE}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', h: SNIPE}
-  - $$mdi:keyboard-esc$$
+  - {t: '$$mdi:keyboard-esc$$', h: SYM}
   NUM:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '[', s: '{'}
@@ -90,7 +90,7 @@ layers:
   - '&'
   - '*'
   - (
-  - {t: ), type: held}
+  - )
   - $$mdi:bluetooth-off$$
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
@@ -119,7 +119,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   FUN:
   - F1
   - F2
