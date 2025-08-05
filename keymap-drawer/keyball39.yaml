@@ -36,7 +36,7 @@ layers:
   - {t: '@', h: FUN}
   - {t: '$$mdi:keyboard-tab$$', h: SCROLL}
   - {t: '$$mdi:keyboard-space$$', h: NUM}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: MOUSE}
+  - {t: '$$mdi:apple-keyboard-control$$', h: MOUSE}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', h: SNIPE}
   - $$mdi:keyboard-esc$$
