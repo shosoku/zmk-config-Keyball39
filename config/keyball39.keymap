@@ -132,7 +132,7 @@
 &kp Q          &kp L               &kp U             &kp COMMA       &kp PERIOD                                      &kp F        &kp W            &kp R              &kp Y                &kp P
 &kp E          &kp I               &kp A             &kp O           &kp MINUS                                       &kp K        &kp T            &kp N              &kp S                &kp H
 &kp Z          &mt LEFT_CONTROL X  &mt LEFT_SHIFT C  &mt LEFT_ALT V  &lt 3 SLASH                                     &kp G        &mt RIGHT_ALT D  &mt RIGHT_SHIFT M  &mt RIGHT_CONTROL J  &kp B
-&kp LC(SPACE)  &kp LEFT_GUI        &lt 3 AT          &lt 5 TAB       &lt 1 SPACE  &lt 4 LEFT_CONTROL  &kp BACKSPACE  &lt 6 ENTER                                                           &lt 2 ESCAPE
+&kp LC(SPACE)  &lt 3 AT_SIGN       &kp LEFT_GUI      &lt 5 TAB       &lt 1 SPACE  &lt 4 LEFT_CONTROL  &kp BACKSPACE  &lt 6 ENTER                                                           &lt 2 ESCAPE
             >;
         };
 
