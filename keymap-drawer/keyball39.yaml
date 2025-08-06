@@ -32,8 +32,8 @@ layers:
   - {t: J, h: '$$mdi:apple-keyboard-control$$'}
   - B
   - Ctl+$$mdi:keyboard-space$$
-  - $$mdi:apple-keyboard-command$$
   - {t: '@', h: FUN}
+  - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:keyboard-tab$$', h: SCROLL}
   - {t: '$$mdi:keyboard-space$$', h: NUM}
   - {t: '$$mdi:apple-keyboard-control$$', h: MOUSE}
@@ -152,8 +152,8 @@ layers:
   - {t: '=', s: +}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
