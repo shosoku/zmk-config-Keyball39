@@ -162,7 +162,7 @@
 &kp F1  &kp F2   &kp F3   &kp F4   &none                   &kp TILDE          &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp COLON  &kp SEMICOLON
 &kp F5  &kp F6   &kp F7   &kp F8   &none                   &kp SINGLE_QUOTE   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SLASH  &kp BACKSLASH
 &kp F9  &kp F10  &kp F11  &kp F12  &none                   &kp DOUBLE_QUOTES  &kp LESS_THAN     &kp GREATER_THAN   &kp EQUAL  &none
-&trans  &trans   &trans   &trans   &trans  &trans  &trans  &trans                                                             &trans
+&trans  &trans   &trans   &trans   &trans  &trans  &trans  &kp RIGHT_SHIFT                                                    &trans
             >;
         };
 
