@@ -127,19 +127,19 @@ layers:
   - F4
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '~'
-  - '{'
-  - '}'
-  - ':'
-  - {t: ;, s: ':'}
+  - '&'
+  - '*'
+  - (
+  - )
   - F5
   - F6
   - F7
   - F8
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '''', s: '"'}
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
-  - {t: /, s: '?'}
+  - $
+  - '%'
+  - ^
   - {t: \, s: '|'}
   - F9
   - F10
@@ -147,9 +147,9 @@ layers:
   - F12
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '"'
-  - <
-  - '>'
-  - {t: '=', s: +}
+  - '!'
+  - '@'
+  - '#'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
