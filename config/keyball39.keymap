@@ -189,10 +189,10 @@
         snipe_layer {
             label = "SNIPE";
             bindings = <
-&trans      &trans        &kp C_PLAY_PAUSE  &trans  &kp C_MUTE                         &trans  &kp TILDE       &kp PIPE      &kp BACKSLASH    &trans
-&kp DELETE  &kp LEFT_ALT  &kp LEFT_CONTROL  &trans  &kp C_VOLUME_UP                    &trans  &kp MINUS       &kp SLASH     &kp NON_US_HASH  &trans
-&trans      &trans        &trans            &trans  &kp C_VOLUME_DOWN                  &trans  &kp UNDERSCORE  &kp QUESTION  &trans           &trans
-&trans      &trans        &trans            &trans  &trans             &trans  &trans  &trans                                                 &trans
+&trans      &trans        &kp C_PLAY_PAUSE  &trans  &kp C_MUTE                         &trans  &kp TILDE       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
+&kp DELETE  &kp LEFT_ALT  &kp LEFT_CONTROL  &trans  &kp C_VOLUME_UP                    &trans  &kp MINUS       &kp LEFT_BRACE    &kp RIGHT_BRACE    &trans
+&trans      &trans        &trans            &trans  &kp C_VOLUME_DOWN                  &trans  &kp UNDERSCORE  &kp LESS_THAN     &kp GREATER_THAN   &trans
+&trans      &trans        &trans            &trans  &trans             &trans  &trans  &trans                                                       &trans
             >;
         };
     };
