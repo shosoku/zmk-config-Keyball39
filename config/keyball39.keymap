@@ -131,7 +131,7 @@
             bindings = <
 &kp Q          &kp L           &kp U             &kp COMMA           &kp PERIOD                                      &kp F        &kp W                &kp R              &kp Y            &kp P
 &kp E          &kp I           &kp A             &kp O               &kp MINUS                                       &kp K        &kp T                &kp N              &kp S            &kp H
-&kp Z          &mt LEFT_ALT X  &mt LEFT_SHIFT C  &mt LEFT_CONTROL V  &lt 4 SLASH                                     &kp G        &mt RIGHT_CONTROL D  &mt RIGHT_SHIFT M  &mt RIGHT_ALT J  &kp B
+&kp Z          &mt LEFT_ALT X  &mt LEFT_SHIFT C  &mt LEFT_CONTROL V  &lt 4 SLASH                                     &kp G        &mt RIGHT_CONTROL D  &mt RIGHT_SHIFT M  &mt RIGHT_ALT J  &lt 4 B
 &kp LC(SPACE)  &lt 3 AT_SIGN   &kp LEFT_GUI      &lt 5 TAB           &lt 1 SPACE  &lt 3 LEFT_CONTROL  &kp BACKSPACE  &lt 6 ENTER                                                           &lt 2 ESCAPE
             >;
         };
@@ -161,7 +161,7 @@
             bindings = <
 &kp F1  &kp F2   &kp F3   &kp F4   &none                   &kp TILDE          &kp AMPS  &kp STAR   &kp LPAR   &kp RPAR
 &kp F5  &kp F6   &kp F7   &kp F8   &none                   &kp SINGLE_QUOTE   &kp DLLR  &kp PRCNT  &kp CARET  &kp BACKSLASH
-&kp F9  &kp F10  &kp F11  &kp F12  &none                   &kp DOUBLE_QUOTES  &kp EXCL  &kp AT     &kp POUND  &none
+&kp F9  &kp F10  &kp F11  &kp F12  &none                   &kp DOUBLE_QUOTES  &kp EXCL  &kp AT     &kp POUND  &kp PIPE
 &trans  &trans   &trans   &trans   &trans  &trans  &trans  &kp RIGHT_SHIFT                                    &trans
             >;
         };
@@ -189,8 +189,8 @@
         snipe_layer {
             label = "SNIPE";
             bindings = <
-&trans      &trans        &kp C_PLAY_PAUSE  &trans  &kp C_MUTE                         &trans  &kp TILDE       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
-&kp DELETE  &kp LEFT_ALT  &kp LEFT_CONTROL  &trans  &kp C_VOLUME_UP                    &trans  &kp MINUS       &kp LEFT_BRACE    &kp RIGHT_BRACE    &trans
+&trans      &trans        &kp C_PLAY_PAUSE  &trans  &kp C_MUTE                         &trans  &kp TILDE       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SEMICOLON
+&kp DELETE  &kp LEFT_ALT  &kp LEFT_CONTROL  &trans  &kp C_VOLUME_UP                    &trans  &kp MINUS       &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp COLON
 &trans      &trans        &trans            &trans  &kp C_VOLUME_DOWN                  &trans  &kp UNDERSCORE  &kp LESS_THAN     &kp GREATER_THAN   &trans
 &trans      &trans        &trans            &trans  &trans             &trans  &trans  &trans                                                       &trans
             >;
