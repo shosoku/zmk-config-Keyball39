@@ -30,7 +30,7 @@ layers:
   - {t: D, h: '$$mdi:apple-keyboard-control$$'}
   - {t: M, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: J, h: '$$mdi:apple-keyboard-option$$'}
-  - B
+  - {t: B, h: MOUSE}
   - Ctl+$$mdi:keyboard-space$$
   - {t: '@', h: FUN}
   - $$mdi:apple-keyboard-command$$
@@ -150,7 +150,7 @@ layers:
   - '!'
   - '@'
   - '#'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '|'
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -190,7 +190,7 @@ layers:
   - '&mkp MB4'
   - $$mdi:pan-down$$
   - '&mkp MB5'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -250,7 +250,7 @@ layers:
   - '~'
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: ;, s: ':'}
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-control$$
@@ -260,7 +260,7 @@ layers:
   - {t: '-', s: _}
   - '{'
   - '}'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - ':'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
