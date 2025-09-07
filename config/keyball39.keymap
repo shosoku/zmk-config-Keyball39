@@ -129,10 +129,10 @@
         default_layer {
             label = "QWRT";
             bindings = <
-&kp Q          &kp L           &kp U             &kp COMMA           &kp PERIOD                                      &kp F        &kp W                &kp R              &kp Y            &kp P
-&kp E          &kp I           &kp A             &kp O               &kp MINUS                                       &kp K        &kp T                &kp N              &kp S            &kp H
-&kp Z          &mt LEFT_ALT X  &mt LEFT_SHIFT C  &mt LEFT_CONTROL V  &lt 4 SLASH                                     &kp G        &mt RIGHT_CONTROL D  &mt RIGHT_SHIFT M  &mt RIGHT_ALT J  &lt 4 B
-&kp LC(SPACE)  &lt 3 AT_SIGN   &kp LEFT_GUI      &lt 5 TAB           &lt 1 SPACE  &lt 3 LEFT_CONTROL  &kp BACKSPACE  &lt 6 ENTER                                                           &lt 2 ESCAPE
+&kp Q             &kp L           &kp U             &kp COMMA           &kp PERIOD                                      &kp F        &kp W                &kp R              &kp Y            &kp P
+&kp E             &kp I           &kp A             &kp O               &kp MINUS                                       &kp K        &kp T                &kp N              &kp S            &kp H
+&kp Z             &mt LEFT_ALT X  &mt LEFT_SHIFT C  &mt LEFT_CONTROL V  &lt 4 SLASH                                     &kp G        &mt RIGHT_CONTROL D  &mt RIGHT_SHIFT M  &mt RIGHT_ALT J  &lt 2 B
+&kp LC(LEFT_GUI)  &lt 3 AT_SIGN   &kp LC(SPACE)     &lt 5 TAB           &lt 1 SPACE  &lt 3 LEFT_CONTROL  &kp BACKSPACE  &lt 6 ENTER                                                           &lt 4 ESCAPE
             >;
         };
 
@@ -151,7 +151,7 @@
             bindings = <
 &kp EXCLAMATION  &kp AT_SIGN   &kp HASH      &kp DOLLAR    &kp PERCENT                  &bootloader     &kp AMPERSAND  &kp ASTERISK      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
 &bt BT_CLR       &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans                       &kp MINUS       &kp EQUAL      &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp SQT
-&trans           &trans        &trans        &trans        &trans                       &kp UNDERSCORE  &kp PLUS       &bt BT_CLR        &bt BT_CLR_ALL        &kp NON_US_BACKSLASH
+&trans           &trans        &trans        &trans        &trans                       &kp UNDERSCORE  &kp PLUS       &none             &none                 &kp NON_US_BACKSLASH
 &trans           &trans        &trans        &trans        &trans       &trans  &trans  &trans                                                                 &trans
             >;
         };
