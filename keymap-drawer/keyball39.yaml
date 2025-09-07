@@ -30,16 +30,16 @@ layers:
   - {t: D, h: '$$mdi:apple-keyboard-control$$'}
   - {t: M, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: J, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: B, h: MOUSE}
-  - Ctl+$$mdi:keyboard-space$$
+  - {t: B, h: SYM}
+  - Ctl+$$mdi:apple-keyboard-command$$
   - {t: '@', h: FUN}
-  - $$mdi:apple-keyboard-command$$
+  - Ctl+$$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-tab$$', h: SCROLL}
   - {t: '$$mdi:keyboard-space$$', h: NUM}
   - {t: '$$mdi:apple-keyboard-control$$', h: FUN}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', h: SNIPE}
-  - {t: '$$mdi:keyboard-esc$$', h: SYM}
+  - {t: '$$mdi:keyboard-esc$$', h: MOUSE}
   NUM:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '[', s: '{'}
@@ -108,9 +108,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - _
   - +
-  - $$mdi:bluetooth-off$$
-  - BT CLR ALL
-  - \
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: \, type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -119,7 +119,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   FUN:
   - F1
   - F2
@@ -190,16 +190,16 @@ layers:
   - '&mkp MB4'
   - $$mdi:pan-down$$
   - '&mkp MB5'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
   SCROLL:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
