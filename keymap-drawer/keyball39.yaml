@@ -31,8 +31,8 @@ layers:
   - {t: M, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: J, h: '$$mdi:apple-keyboard-option$$'}
   - {t: B, h: SYM}
-  - Ctl+$$mdi:apple-keyboard-command$$
-  - {t: '@', h: FUN}
+  - $$mdi:apple-keyboard-command$$
+  - '@'
   - Ctl+$$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-tab$$', h: SCROLL}
   - {t: '$$mdi:keyboard-space$$', h: NUM}
@@ -152,11 +152,11 @@ layers:
   - '#'
   - '|'
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:transfer$$', type: trans}
