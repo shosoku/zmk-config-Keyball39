@@ -123,13 +123,13 @@
         };
 
         lang {
-            bindings = <&kp INT4>;
+            bindings = <&kp LANGUAGE_4>;
             key-positions = <2 3>;
             layers = <0>;
         };
 
         int {
-            bindings = <&kp INT5>;
+            bindings = <&kp LANGUAGE_5>;
             key-positions = <1 2>;
             layers = <0>;
         };
