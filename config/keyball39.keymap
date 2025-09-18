@@ -121,6 +121,16 @@
             key-positions = <16 25>;
             layers = <0 4>;
         };
+
+        lang {
+            bindings = <&kp LANGUAGE_4>;
+            key-positions = <2 3>;
+        };
+
+        int {
+            bindings = <&kp INTERNATIONAL_5>;
+            key-positions = <1 2>;
+        };
     };
 
     keymap {
