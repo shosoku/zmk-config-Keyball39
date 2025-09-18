@@ -123,7 +123,7 @@
         };
 
         lang {
-            bindings = <&kp LANGUAGE_4>;
+            bindings = <&kp INTERNATIONAL_4>;
             key-positions = <2 3>;
             layers = <0>;
         };
