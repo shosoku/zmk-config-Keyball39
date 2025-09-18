@@ -312,8 +312,8 @@ combos:
   k: PgDn
   l: [QWRT, MOUSE]
 - p: [2, 3]
-  k: INT4
+  k: LANGUAGE 4
   l: [QWRT]
 - p: [1, 2]
-  k: INT5
+  k: LANGUAGE 5
   l: [QWRT]
