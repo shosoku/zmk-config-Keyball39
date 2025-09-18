@@ -312,8 +312,8 @@ combos:
   k: PgDn
   l: [QWRT, MOUSE]
 - p: [2, 3]
-  k: LANGUAGE 4
+  k: INTERNATIONAL 2
   l: [QWRT]
 - p: [1, 2]
-  k: LANGUAGE 5
+  k: INT MUHENKAN
   l: [QWRT]
