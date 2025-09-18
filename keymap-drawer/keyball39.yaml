@@ -311,3 +311,7 @@ combos:
 - p: [16, 25]
   k: PgDn
   l: [QWRT, MOUSE]
+- p: [2, 3]
+  k: LANGUAGE 4
+- p: [1, 2]
+  k: INTERNATIONAL 5
