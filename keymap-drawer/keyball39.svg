@@ -568,7 +568,7 @@ rect.held, rect.combo.held {
 <g class="combo combopos-10">
 <rect rx="6" ry="6" x="154" y="19" width="28" height="26" class="combo"/>
 <text x="168" y="32" class="combo tap">
-<tspan x="168" dy="-0.6em" style="font-size: 75%">LANGUAGE</tspan><tspan x="168" dy="1.2em" style="font-size: 75%">4</tspan>
+<tspan x="168" dy="-0.6em" style="font-size: 60%">INTERNATI…</tspan><tspan x="168" dy="1.2em" style="font-size: 60%">4</tspan>
 </text>
 </g>
 <g class="combo combopos-11">
