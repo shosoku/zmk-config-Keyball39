@@ -123,13 +123,13 @@
         };
 
         lang {
-            bindings = <&kp LANGUAGE_4>;
+            bindings = <&kp INTERNATIONAL_2>;
             key-positions = <2 3>;
             layers = <0>;
         };
 
         int {
-            bindings = <&kp LANGUAGE_5>;
+            bindings = <&kp INT_MUHENKAN>;
             key-positions = <1 2>;
             layers = <0>;
         };
