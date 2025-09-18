@@ -125,11 +125,13 @@
         lang {
             bindings = <&kp LANGUAGE_4>;
             key-positions = <2 3>;
+            layers = <0>;
         };
 
         int {
             bindings = <&kp INTERNATIONAL_5>;
             key-positions = <1 2>;
+            layers = <0>;
         };
     };
 
